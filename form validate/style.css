@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+form{
+	margin: 100px auto;
+	width: 350px;
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #222;
+}
+
+label{
+	margin: 10px;
+	color: white;
+}
+
+input[type = "submit"]{
+	margin: 10px auto;
+	padding: 5px;
+}
+
+.error_phone{
+	color: red;
+	padding-bottom: 5px; 
+}
+
+.error_mail{
+	color: red;
+	padding-bottom: 5px; 
+}
+
+.error_pass{
+	color: red;
+	padding-bottom: 5px; 
+}
+
+.error_c_pass{
+	color: red;
+	padding-bottom: 5px; 
+}
+
+.error_age{
+	color: red;
+	padding-bottom: 5px; 
+}

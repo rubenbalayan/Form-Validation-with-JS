@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<form action="index.php" method="post">
+		<label for="name">First Name:
+			<input id="name" type="text" name="name" placeholder="Enter your first name">
+		</label>
+		<label for="lastname">Last Name:
+			<input id="lastname" type="text" name="last_name" placeholder="Enter your last name">
+		</label>
+		<label for="phone">Phone:
+			<select name="phone">
+				<option value="374">+374</option>
+				<option value="7">+7</option>
+			</select>
+			<input id="phone" type="text" name="phone" placeholder="XX - XX - XX - XX">
+		</label>
+		<label for="email">E-mail:
+			<input id="email" type="text" name="email" placeholder="Enter your email">
+		</label>
+		<label for="password">Password:
+			<input id="password" type="password" name="password" placeholder="**********">
+		</label>
+		<label for="c_password">Confirm Password:
+			<input id="c_password" type="password" name="password" placeholder="**********">
+		</label>
+		<label for="city">City:
+			<input id="city" type="text" name="city" placeholder="Enter you city name">
+		</label>
+		<label for="age">Age:
+			<input id="age" type="text" name="age" placeholder="Enter your age from 18-70">
+		</label>
+		<input id="submit" type="submit" name="submit" value="Submit">
+	</form>
+
+</body>
+</html>
